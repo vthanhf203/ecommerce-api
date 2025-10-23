@@ -7,12 +7,12 @@ import com.web.ecommerce_api.entity.Product;
 
 public class ProductMapper {
     public static Product toEntity(ProductCreateRequest req) {
-        Product p1 = new Product();
-        p1.setName(req.getName());
-        p1.setPrice(req.getPrice());
-        p1.setDescription(req.getDescription());
-        p1.setStock(req.getStock());
-        return p1;
+        Product p2 = new Product();
+        p2.setName(req.getName());
+        p2.setPrice(req.getPrice());
+        p2.setDescription(req.getDescription());
+        p2.setStock(req.getStock());
+        return p2;
     }
 
     public static void updateEntity(Product entity, ProductUpdateRequest req) {
